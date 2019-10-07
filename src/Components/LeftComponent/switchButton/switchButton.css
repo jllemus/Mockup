@@ -1,0 +1,15 @@
+.switch-component__container {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.switch-component__switch{
+    margin-left:20px;
+}
+
+.switch-component__image {
+    display:inline-block;
+    margin-left:15px;
+    width: 40px;
+}
+

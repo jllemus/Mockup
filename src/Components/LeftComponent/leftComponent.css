@@ -1,0 +1,47 @@
+.sidebar-component {
+    text-align: center;
+    width:auto;
+    padding:10px;
+    height: 100%;
+}
+
+.sidebar-component__image {
+    margin-bottom: 40px;
+    width: 100px;
+    min-width: 20px;
+}
+
+.sidebar-component__switchs {
+    width: 100%;
+    border-top:2px solid gainsboro;
+    border-bottom:2px solid gainsboro;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.sidebar-component__search {
+    margin:2px;
+    padding:2px;
+    border-radius: 5px;
+    border-style: none;
+    width: 100%;
+}
+.sidebar-component__status {
+    margin:2px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    padding:2px;
+}
+
+.sidebar-component__status-section {
+    align-content: center;
+    
+}
+
+@media screen and (max-width:310px) {
+    .sidebar-component__switchs, .sidebar-component, .sidebar-component__status, .sidebar-component p {
+        display: none;
+        visibility: hidden;
+    }
+}

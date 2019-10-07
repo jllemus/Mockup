@@ -1,0 +1,14 @@
+.date-container {
+    margin-left:100px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding:18px;
+    width: 15%;
+    height:95px;
+    border-left:2px solid rgb(242, 242, 242);
+    border-right:2px solid rgb(242, 242, 242);
+}
+
+.date-container p {
+    margin: 2px auto;
+}

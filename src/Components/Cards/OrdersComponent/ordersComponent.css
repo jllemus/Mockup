@@ -1,0 +1,45 @@
+.orders-component__container {
+    align-items: center;
+    display:flex;
+    width: 42%;
+}
+.orders-component__value {
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding:25px;
+    height:95px;
+    width: 50%;
+
+}
+
+.orders-component__icon {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:20px;
+    width: 30%;
+}
+
+.orders-component-number__container {
+    width: 20%;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.orders-component__number {
+    width: 35px;
+    height: 35px;
+    border-radius: 8px;
+    margin-right:5px;
+    background-color: crimson;
+}
+
+.orders-component__number p {
+    color:white;
+    margin:5px auto;
+    padding: 6px;
+}
+
+@media screen and (max-width:800px) {
+    .orders-component-number__container, .orders-component__icon {
+        display:none;
+    }
+}

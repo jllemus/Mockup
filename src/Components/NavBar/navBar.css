@@ -1,0 +1,43 @@
+.container {
+    margin-top:50px;
+    margin-right:45px;
+    height: 60px;
+    width: 90%;
+    right: 60px;
+}
+
+.container p {
+    font-size: 12px;
+}
+
+.row {
+    position: relative;
+    height: 100%;
+}
+
+.col {
+    background: white;
+    padding-top: 5px;
+    text-align: center;
+    height: 100%;
+}
+
+.col:hover{
+    background-color: #00416A;
+    color:white;
+    cursor: pointer;
+}
+
+@media screen and (max-width:360px) {
+    .container {
+        height: auto;
+        margin:0px auto;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .container {
+        height: auto;
+        margin:10px auto;
+    }
+}

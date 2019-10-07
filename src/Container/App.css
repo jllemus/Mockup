@@ -1,0 +1,66 @@
+.App {
+  position: relative;
+  padding:20px;
+  display: flex;
+  margin:15px;
+  background-color: #e7e7e7 ;
+  height: auto;
+}
+
+.left-wrapper {
+  margin-right: 10px;
+  width: 15%;
+}
+
+.right-wrapper {
+  width: 85%;
+}
+
+.floating-button {
+  position: absolute;
+  box-shadow: 2px 2px 4px grey;
+  bottom: 5%;
+  right: 10px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border-style: none;
+  background-color: rgb(238, 141, 56)
+}
+
+.floating-button:hover {
+  background-color: rgb(235, 166, 107)
+}
+
+@media screen and (max-width:950px) {
+  .App {
+    display:flex;
+    flex-direction: column;
+  }
+
+  .left-wrapper {
+    width: 100%;
+  }
+
+  .right-wrapper {
+    width:100%
+  }
+
+}
+
+@media screen and (max-width:360px) {
+  .left-wrapper {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .right-wrapper, .floating-button  {
+      display:none;
+  }
+}
+
+
+
+
+
